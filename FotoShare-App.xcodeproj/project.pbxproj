@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		DEB43FCA2649BC2A008D873F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB43FC92649BC2A008D873F /* AppDelegate.swift */; };
 		DEB43FCC2649BC2A008D873F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB43FCB2649BC2A008D873F /* SceneDelegate.swift */; };
-		DEB43FCE2649BC2A008D873F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB43FCD2649BC2A008D873F /* ViewController.swift */; };
-		DEB43FD12649BC2A008D873F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEB43FCF2649BC2A008D873F /* Main.storyboard */; };
 		DEB43FD32649BC2B008D873F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEB43FD22649BC2B008D873F /* Assets.xcassets */; };
 		DEB43FD62649BC2B008D873F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEB43FD42649BC2B008D873F /* LaunchScreen.storyboard */; };
 		DEB43FE12649BC2B008D873F /* FotoShare_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB43FE02649BC2B008D873F /* FotoShare_AppTests.swift */; };
@@ -38,8 +36,6 @@
 		DEB43FC62649BC2A008D873F /* FotoShare-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FotoShare-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEB43FC92649BC2A008D873F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DEB43FCB2649BC2A008D873F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DEB43FCD2649BC2A008D873F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DEB43FD02649BC2A008D873F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DEB43FD22649BC2B008D873F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DEB43FD52649BC2B008D873F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DEB43FD72649BC2B008D873F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -99,9 +95,10 @@
 		DEB43FC82649BC2A008D873F /* FotoShare-App */ = {
 			isa = PBXGroup;
 			children = (
+				DEB43FFC2649BEA1008D873F /* Controllers */,
+				DEB43FFB2649BE9A008D873F /* Views */,
+				DEB43FFA2649BE8F008D873F /* Models */,
 				DEB43FF92649BC47008D873F /* Resources */,
-				DEB43FCD2649BC2A008D873F /* ViewController.swift */,
-				DEB43FCF2649BC2A008D873F /* Main.storyboard */,
 			);
 			path = "FotoShare-App";
 			sourceTree = "<group>";
@@ -134,6 +131,27 @@
 				DEB43FD72649BC2B008D873F /* Info.plist */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		DEB43FFA2649BE8F008D873F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DEB43FFB2649BE9A008D873F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DEB43FFC2649BEA1008D873F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,7 +259,6 @@
 			files = (
 				DEB43FD62649BC2B008D873F /* LaunchScreen.storyboard in Resources */,
 				DEB43FD32649BC2B008D873F /* Assets.xcassets in Resources */,
-				DEB43FD12649BC2A008D873F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +283,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEB43FCE2649BC2A008D873F /* ViewController.swift in Sources */,
 				DEB43FCA2649BC2A008D873F /* AppDelegate.swift in Sources */,
 				DEB43FCC2649BC2A008D873F /* SceneDelegate.swift in Sources */,
 			);
@@ -304,14 +320,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		DEB43FCF2649BC2A008D873F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DEB43FD02649BC2A008D873F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DEB43FD42649BC2B008D873F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
